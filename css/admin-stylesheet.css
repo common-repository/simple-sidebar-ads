@@ -1,0 +1,89 @@
+.add-new-content {
+  margin-top: 50px;
+  margin-left: 10px;
+  width: 90%;
+  background-color: #FFFFFF;
+  border: 1px solid #e1e1e1;
+  padding: 10px;
+}
+
+.wads-image-settings {
+  text-align: left;
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.wads-image-settings input[type="text"] {
+  width: 70px;
+  text-align: center;
+}
+
+.wads-image {
+  width: 20%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 5px;
+  display: block;
+  float: left;
+}
+
+.wads-placeholder-image {
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  background-color: #FFFFFF;
+  border: 1px solid #e1e1e1;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.wads-content {
+  border-left: 1px dashed #e1e1e1;
+  width: 80%;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+  float: left;
+}
+
+.wads-content input[type="text"] {
+  width: 60%;
+  height: 30px;
+}
+
+.wads-content textarea {
+  width: 60%;
+  height: 60px;
+}
+
+.wads-widget-list {
+  border: 1px solid #2A2A2A;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+
+.widget-row {
+  padding: 8px;
+  border-bottom: 1px dashed #2A2A2A;
+}
+
+.widget-row:last-of-type {
+  border-bottom: none;
+}
+
+.widget-row input[type="radio"] {
+  float: left;
+}
+
+.widget-row img {
+  max-width: 100px;
+  max-height: 100px;
+}

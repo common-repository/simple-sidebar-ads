@@ -1,0 +1,30 @@
+.wads-link {
+  font: inherit;
+  color: inherit;
+}
+
+.wads-top-text, .wads-bottom-text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.wads-image {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.wads-overlay {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.wads-pb {
+  font-style: italic;
+  font-size: 0.8em;
+  float: right;
+}
